@@ -1,0 +1,168 @@
+*{
+    font-family: "ubuntu" !important;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fbfbfb;
+}
+
+
+
+.navegador{
+    background-color:#000;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    margin: 0 !important;
+}
+ul, ol {
+    list-style:none;
+}
+.nav li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display: block;
+}
+.nav li a:hover {
+    background-color:#434343;
+}
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+.nav li:hover > ul {
+    display:block;
+}
+.nav li ul li {
+    position:relative;
+}
+
+
+
+
+.contenido{
+    float: left;
+    width: 50vw;
+    height: 80vh;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin: 4rem;
+    padding: 3rem;
+}
+.contenido iframe{
+    position: relative;
+    width: 100%;
+    height: 315px;
+}
+.contenido p{
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+.contenido-tutorial{
+    float: left;
+    width: 50vw;
+    height: auto;
+    border-radius: 5px;
+    margin: 3rem;
+    padding: 4rem;
+}
+.contenido-tutorial p{
+    font-size: 18px;
+    font-weight: 50;
+    text-align: justify;
+}
+.contenido-tutorial li{
+    font-size: 18px;
+    font-weight: 50;
+    text-align: justify;
+}
+.tabla-etiquetas table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.tabla-etiquetas th{
+    background-color: #000;
+    padding: 1rem;
+    color: #fbfbfb;
+    font-size: 18px;
+}
+.tabla-etiquetas td{
+    padding: 1rem;
+    text-align: center;
+    margin: 2rem;
+    background-color: #f1f1f1;
+}
+.tabla-etiquetas iframe{
+    width: 10rem;
+    height: 5rem;
+}
+
+
+
+.recomendaciones{
+    float: left;
+    width: 25vw;
+    height: auto;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.recomendaciones table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.recomendaciones td{
+    height: 10rem;
+    width: 15rem;
+}
+.recomendaciones img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.recomendaciones img:hover{
+    height: 102%;
+    width: 102%;
+    position: relative;
+}
+
+
+
+
+
+.pie{
+    clear: both;
+    background-color: #000;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.pie table{
+    width: auto;
+    height: 100%;
+    position: relative;
+}
+.pie td{
+    width:600px;
+}
+.container--redes{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+}

@@ -1,0 +1,148 @@
+body{
+    font-family: 'Poppins', sans-serif !important;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #fbfbfb;
+}
+ul, ol {
+    list-style:none;
+}
+
+
+
+.banner{
+    color:#fbfbfb;
+}
+.banner:hover{
+    height: 110%;
+    width: 100%;
+}
+
+.encabezado{
+    background-color: #000000ec;
+    display: grid;
+    align-items: center;
+}
+#navegador{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 0;
+}
+#navegador  li a {
+    color:#ded4d4;
+    text-decoration:none;
+    padding:10px 12px;
+    display: block;
+    padding: 2rem;
+}
+#navegador li a:hover {
+    color: #ffff ;
+    display: block;
+}
+#titulo{
+    min-height: 45vh;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 50;
+}
+.section-curve{
+    position: relative;
+    margin-bottom: 10rem; 
+}
+.curve{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.curve svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+.curve .shape-fill {
+    fill: #000000ec;
+    
+}
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .curve svg {
+        width: calc(100% + 1.3px);
+        height: 70px;
+    }
+}
+.row{
+    justify-content: center;
+}
+.description-header{
+    width: 80vw;
+}
+
+
+#individual{
+    text-align: center;
+    height: auto;
+}
+#individual .col{
+    padding: 2rem;
+    margin: 1rem;
+    width: 20vw;
+    background-color: #000000ec;
+    color: #fbfbfb;
+    border-radius: 5px;
+    align-items: center;
+}
+.foto{
+    height: 140px;
+    width: 140px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+
+#grupo{
+    height: auto;
+}
+#grupo .col{
+    background-color: #000000ec;
+    color: #fbfbfb;
+}
+#grupo .col-text{
+    text-align: left;
+    padding: 4rem;
+}
+#grupo .col-img{
+    text-align: center;
+    padding: 2rem;
+}
+.fotoEquipo{
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+
+
+.pie{
+    background-color: #000000ec;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.container--redes{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+}
